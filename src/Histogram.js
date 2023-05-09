@@ -5,7 +5,7 @@ import { LinearScale } from 'chart.js';
 
 Chart.register(LinearScale);
 
-const HistogramChart = (props) => {
+const Histogram = (props) => {
   const { histogramData } = props;
 
   // Extract the words and counts from the histogramData
@@ -39,4 +39,4 @@ const HistogramChart = (props) => {
   return <Bar data={chartData} options={options} />;
 };
 
-export default HistogramChart;
+export default Histogram;
