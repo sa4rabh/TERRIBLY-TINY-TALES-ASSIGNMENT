@@ -69,11 +69,6 @@ const WordFrequencyAnalyzer = () => {
         <>
           <h2>Word Frequency Histogram</h2>
           <div className="histogram">
-            {/* {histogramData.map(([word, count]) => (
-              <div key={word} className="bar" style={{ height: `${count * 10}px`, color: 'red' }}>
-                {word} ({count})
-              </div>
-            ))} */}
             <Histogram histogramData={histogramData} />
           </div>
           <button onClick={handleExport}>Export</button>
