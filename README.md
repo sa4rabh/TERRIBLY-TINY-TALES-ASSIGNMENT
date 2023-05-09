@@ -9,6 +9,7 @@ Netlify:- https://saurabh-assignment.netlify.app/
 Dependencies used:
  React is imported from the 'react' library. It is the main dependency for building React components and managing the component
  lifecycle.
+ 
 useState is imported from the 'react' library. It is a React Hook that allows functional components to manage state. It provides a way to declare and update state variables within a functional component.
 
 Bar is imported from the 'react-chartjs-2' library. It provides a React wrapper for Chart.js Bar charts. It allows you to create and customize bar charts using React components.
