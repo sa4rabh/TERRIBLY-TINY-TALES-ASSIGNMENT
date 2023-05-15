@@ -8,23 +8,23 @@ Chart.register(LinearScale);
 const Histogram = (props) => {
   const { histogramData } = props;
 
-  // Extract the words and counts from the histogramData
+  // Extracting the words and counts from the histogram
   const labels = histogramData.map(([word, count]) => word);
   const data = histogramData.map(([word, count]) => count);
 
-  // Define the chart data
+  // Defining the chart data
   const chartData = {
     labels: labels,
     datasets: [
       {
         label: 'Data',
         data: data,
-        backgroundColor: 'rgba(75, 192, 192, 0.6)',
+        backgroundColor: 'rgb(175, 92, 142, 6)',
       },
     ],
   };
 
-  // Define the chart options
+  // Defining the chart options
   const options = {
     scales: {
       y: {
